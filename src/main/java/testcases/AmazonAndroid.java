@@ -88,7 +88,6 @@ public class AmazonAndroid extends AmazonWrapper {
 			checkout.proceedtoBuy();
 			checkout.selectShippingAddress();
 			checkout.selectPayment();
-			//checkout.selectPrimeMember();
 			checkout.validateCheckoutPage();
 
 		} catch (Exception e) {

@@ -68,7 +68,6 @@ public class LoginPage extends AmazonWrapper {
 		verifyElementIsDisplayed(prop.getProperty("button.signInButtonNavigation"));
 		click(prop.getProperty("button.signInButtonNavigation"));
 			
-		Thread.sleep(3000);
 		
 		verifyElementIsDisplayed(prop.getProperty("edit.emailField"));
 		enterText(prop.getProperty("edit.emailField"), signinDetailsMap.get("Username"));

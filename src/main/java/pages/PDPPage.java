@@ -62,7 +62,7 @@ public class PDPPage extends AmazonWrapper {
 	 */
 	public PDPPage validateSearchResultPage() throws InterruptedException {
 		
-		Thread.sleep(5000);
+		
 		swipeFullFromBottomToTop("android");
 		swipeFullFromBottomToTop("android");
 		swipeFullFromBottomToTop("android");
@@ -152,7 +152,7 @@ public class PDPPage extends AmazonWrapper {
 		
 		click(prop.getProperty("button.addtoCartButton"));
 		
-		Thread.sleep(5000);
+		
 		
 		verifyElementIsDisplayed(prop.getProperty("text.cartCount"));
 		int cartCountAfter=Integer.parseInt(getText(prop.getProperty("text.cartCount")));

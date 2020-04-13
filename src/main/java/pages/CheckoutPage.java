@@ -10,8 +10,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.relevantcodes.extentreports.ExtentTest;
 
@@ -156,7 +154,7 @@ public class CheckoutPage extends AmazonWrapper {
 	 *Skips the Amazon prime membership page by clicking on No Thanks button
 	 */
 	public CheckoutPage selectPrimeMember() throws InterruptedException {
-		Thread.sleep(3000);
+		
 		if(verifyIsDisplayed(prop.getProperty("button.NoThanksButton")))
 		{
 			click(prop.getProperty("button.NoThanksButton"));
@@ -173,8 +171,7 @@ public class CheckoutPage extends AmazonWrapper {
 	 */
 	public CheckoutPage validateCheckoutPage() throws InterruptedException {
 		
-		Thread.sleep(3000);
-
+		
 		verifyStep("Checkout page displayed", "PASS");
 		swipeFullFromBottomToTop("android");
 
@@ -221,7 +218,7 @@ public class CheckoutPage extends AmazonWrapper {
 		   System.out.println("non offer product : ");
 
 		   swipeFullFromBottomToTop("android");
-		   Thread.sleep(2000);
+		  
 
 		   verifyElementIsDisplayed(prop.getProperty("text.ProductTitleCheckout"));
 			prodNameCheckout=getText(prop.getProperty("text.ProductTitleCheckout"));

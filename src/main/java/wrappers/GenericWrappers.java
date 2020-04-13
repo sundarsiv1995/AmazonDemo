@@ -403,7 +403,6 @@ public class GenericWrappers extends Reporter {
 			FileUtils.copyFile(((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE),
 					new File("./reports/images/" + number + ".jpg"));
 		} catch (IOException e) {
-			//reportStep("The snapshot could not be taken", "WARN");
 		} catch (Exception e) {
 
 			System.out.println("The app has been closed.");
@@ -453,28 +452,18 @@ public class GenericWrappers extends Reporter {
 			value = driver.findElement(getLocator(property)).isSelected();
 
 		} catch (ElementNotFoundException e) {
-			//verifyStep(element + "Element not found\n" + e.getMessage(), "FAIL");
 			Assert.assertTrue(false, element + "Element not found\n" + e.getMessage());
 		} catch (TimeoutException e) {
-
-			//verifyStep(element + "Time out error\n" + e.getMessage(), "FAIL");
 			Assert.assertTrue(false, element + "Time out error\n" + e.getMessage());
 		} catch (ElementNotSelectableException e) {
-			//verifyStep(element + "Element not Selectable\n" + e.getMessage(), "FAIL");
 			Assert.assertTrue(false, element + "Element not Selectable\n" + e.getMessage());
 		} catch (ElementNotVisibleException e) {
-
-			//verifyStep(element + "Element not Visible\n" + e.getMessage(), "FAIL");
 			Assert.assertTrue(false, element + "Element not Visible\n" + e.getMessage());
 		} catch (ElementNotInteractableException e) {
-
-			//verifyStep(element + "Element not Interatable\n" + e.getMessage(), "FAIL");
 			Assert.assertTrue(false, element + "Element not Interatable\n" + e.getMessage());
 		}
 
 		catch (Exception e) {
-
-			//verifyStep(e.getMessage(), "FAIL");
 			Assert.assertTrue(false, e.getMessage());
 		}
 	
@@ -504,27 +493,21 @@ public class GenericWrappers extends Reporter {
 			element.clear();
 		}
 		catch (ElementNotFoundException e){
-			// verifyStep(element + "Element not found\n" + e.getMessage(), "FAIL");
 			Assert.assertTrue(false,element + "Element not found\n" + e.getMessage());
 		}
 		catch (TimeoutException e) {
-			// verifyStep(element + "Time out error\n" + e.getMessage(), "FAIL");
 			Assert.assertTrue(false,element + "Time out error\n" + e.getMessage());
 		}
 		catch (ElementNotSelectableException e)	{
-			// verifyStep(element + "Element not Selectable\n" + e.getMessage(), "FAIL");
 			Assert.assertTrue(false,element + "Element not Selectable\n" + e.getMessage());
 		}
 		catch (ElementNotVisibleException e) {
-			// verifyStep(element + "Element not Visible\n" + e.getMessage(), "FAIL");
 			Assert.assertTrue(false,element + "Element not Visible\n" + e.getMessage());
 		}
 		catch (ElementNotInteractableException e) {
-			// verifyStep(element + "Element not Interatable\n" + e.getMessage(), "FAIL");
 			Assert.assertTrue(false,element + "Element not Interatable\n" + e.getMessage());
 		}
 		catch (Exception e) {
-			// verifyStep(e.getMessage(), "FAIL");
 			Assert.assertTrue(false,e.getMessage());
 		}
 
@@ -543,7 +526,6 @@ public class GenericWrappers extends Reporter {
 			int starty = (int) (scrnSize.height*0.3);
 			int endy = (int) (scrnSize.height*0.8);
 			if (pfName.equalsIgnoreCase("android")) {
-				// System.out.println("swiping android");
 				((AndroidDriver<WebElement>) driver).swipe(startx, endy, startx, starty, 1000);
 			} 
 

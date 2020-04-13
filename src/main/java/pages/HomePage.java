@@ -120,7 +120,7 @@ public class HomePage extends AmazonWrapper {
 		verifyElementIsDisplayed(prop.getProperty("edit.searchBar"));
 		click(prop.getProperty("edit.searchBar"));
 		
-		Thread.sleep(3000);
+		
 		verifyElementIsDisplayed(prop.getProperty("edit.searchBar"));
 		enterText(prop.getProperty("edit.searchBar"), searchData.get("SearchTerm"));
 		
@@ -144,7 +144,7 @@ public class HomePage extends AmazonWrapper {
 	 */
 	public HomePage clearCart() throws InterruptedException {
 
-		Thread.sleep(5000);
+		
 		verifyElementIsDisplayed(prop.getProperty("text.cartCount"));
 		int cartCount=Integer.parseInt(getText(prop.getProperty("text.cartCount")));
 		
@@ -158,7 +158,7 @@ public class HomePage extends AmazonWrapper {
 			click(prop.getProperty("button.deleteButton"));
 			
 			//verifyElementIsDisplayed(prop.getProperty("text.ProductRemovedConfirmation"));
-			Thread.sleep(5000);
+			
 			int cartCountUpdated=Integer.parseInt(getText(prop.getProperty("text.cartCount")));
 
 			if(cartCountUpdated==0)
