@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<br>App launched</br><br><a href='D:\workspace\Amazon-MobileTesting\reports\images\811745775.jpg'> <img src='D:\workspace\Amazon-MobileTesting\reports\images\811745775.jpg' height='300' width='200'/> </a><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Login Page displayed</br><br><a href='D:\workspace\Amazon-MobileTesting\reports\images\343397223.jpg'> <img src='D:\workspace\Amazon-MobileTesting\reports\images\343397223.jpg' height='300' width='200'/> </a><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Logged in successfully</br><br><a href='D:\workspace\Amazon-MobileTesting\reports\images\599129543.jpg'> <img src='D:\workspace\Amazon-MobileTesting\reports\images\599129543.jpg' height='300' width='200'/> </a><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Cart items deleted</br><br><a href='D:\workspace\Amazon-MobileTesting\reports\images\133672983.jpg'> <img src='D:\workspace\Amazon-MobileTesting\reports\images\133672983.jpg' height='300' width='200'/> </a><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Product searched</br><br><a href='D:\workspace\Amazon-MobileTesting\reports\images\107625970.jpg'> <img src='D:\workspace\Amazon-MobileTesting\reports\images\107625970.jpg' height='300' width='200'/> </a><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Product Name search page :Horlicks Lite - Health and Nutrition drink (Regular Malt) 450gm Pet Jar</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Product Price search page :₹268</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Product details page displayed</br><br><a href='D:\workspace\Amazon-MobileTesting\reports\images\427821306.jpg'> <img src='D:\workspace\Amazon-MobileTesting\reports\images\427821306.jpg' height='300' width='200'/> </a><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Product name PDP page : Horlicks Lite - Health and Nutrition drink (Regular Malt) 450gm Pet Jar</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Product price PDP page : ₹268</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Product quantity PDP page : 1</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Shopping cart page displayed</br><br><a href='D:\workspace\Amazon-MobileTesting\reports\images\324155453.jpg'> <img src='D:\workspace\Amazon-MobileTesting\reports\images\324155453.jpg' height='300' width='200'/> </a><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Product name shopping cart : Horlicks Lite - Health and Nutrition drink (Regular Malt) 450gm ...</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Product price shopping cart : ₹268</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Product quantity shopping cart : 1</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Checkout page displayed</br><br><a href='D:\workspace\Amazon-MobileTesting\reports\images\735041406.jpg'> <img src='D:\workspace\Amazon-MobileTesting\reports\images\735041406.jpg' height='300' width='200'/> </a><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Product name checkout page : Horlicks Lite - Health and Nutrition drink (Regular Malt) 450gm Pet Jar</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Product price checkout page : ₹268</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Product quantity checkout page : 1</br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="420043" started-at="2020-04-13T15:28:55 IST" finished-at="2020-04-13T15:35:55 IST">
+    <groups>
+    </groups>
+    <test name="Android Test 1" duration-ms="420043" started-at="2020-04-13T15:28:55 IST" finished-at="2020-04-13T15:35:55 IST">
+      <class name="com.tests.AmazonAndroid">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.tests.AmazonAndroid@5a60a828]" name="beforeSuite" is-config="true" duration-ms="208" started-at="2020-04-13T15:28:55 IST" finished-at="2020-04-13T15:28:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.tests.AmazonAndroid@5a60a828]" name="setData" is-config="true" duration-ms="15" started-at="2020-04-13T15:28:55 IST" finished-at="2020-04-13T15:28:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[appium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Avon Samsung Galaxy S8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ce11171bf27b483902]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[WSJ App]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[8200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.tests.AmazonAndroid@5a60a828]" name="beforeMethod" is-config="true" duration-ms="58000" started-at="2020-04-13T15:28:55 IST" finished-at="2020-04-13T15:29:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Amazon_Login_And_Place_Order_TC001()[pri:1, instance:com.tests.AmazonAndroid@5a60a828]" name="Amazon_Login_And_Place_Order_TC001" duration-ms="361954" started-at="2020-04-13T15:29:53 IST" finished-at="2020-04-13T15:35:55 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>App launched</br><br><a href='D:\workspace\Amazon-MobileTesting\reports\images\811745775.jpg'> <img src='D:\workspace\Amazon-MobileTesting\reports\images\811745775.jpg' height='300' width='200'/> </a><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Login Page displayed</br><br><a href='D:\workspace\Amazon-MobileTesting\reports\images\343397223.jpg'> <img src='D:\workspace\Amazon-MobileTesting\reports\images\343397223.jpg' height='300' width='200'/> </a><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Logged in successfully</br><br><a href='D:\workspace\Amazon-MobileTesting\reports\images\599129543.jpg'> <img src='D:\workspace\Amazon-MobileTesting\reports\images\599129543.jpg' height='300' width='200'/> </a><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Cart items deleted</br><br><a href='D:\workspace\Amazon-MobileTesting\reports\images\133672983.jpg'> <img src='D:\workspace\Amazon-MobileTesting\reports\images\133672983.jpg' height='300' width='200'/> </a><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Product searched</br><br><a href='D:\workspace\Amazon-MobileTesting\reports\images\107625970.jpg'> <img src='D:\workspace\Amazon-MobileTesting\reports\images\107625970.jpg' height='300' width='200'/> </a><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Product Name search page :Horlicks Lite - Health and Nutrition drink (Regular Malt) 450gm Pet Jar</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Product Price search page :₹268</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Product details page displayed</br><br><a href='D:\workspace\Amazon-MobileTesting\reports\images\427821306.jpg'> <img src='D:\workspace\Amazon-MobileTesting\reports\images\427821306.jpg' height='300' width='200'/> </a><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Product name PDP page : Horlicks Lite - Health and Nutrition drink (Regular Malt) 450gm Pet Jar</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Product price PDP page : ₹268</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Product quantity PDP page : 1</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Shopping cart page displayed</br><br><a href='D:\workspace\Amazon-MobileTesting\reports\images\324155453.jpg'> <img src='D:\workspace\Amazon-MobileTesting\reports\images\324155453.jpg' height='300' width='200'/> </a><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Product name shopping cart : Horlicks Lite - Health and Nutrition drink (Regular Malt) 450gm ...</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Product price shopping cart : ₹268</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Product quantity shopping cart : 1</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Checkout page displayed</br><br><a href='D:\workspace\Amazon-MobileTesting\reports\images\735041406.jpg'> <img src='D:\workspace\Amazon-MobileTesting\reports\images\735041406.jpg' height='300' width='200'/> </a><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Product name checkout page : Horlicks Lite - Health and Nutrition drink (Regular Malt) 450gm Pet Jar</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Product price checkout page : ₹268</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Product quantity checkout page : 1</br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Amazon_Login_And_Place_Order_TC001 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.tests.AmazonAndroid@5a60a828]" name="afterMethod" is-config="true" duration-ms="3" started-at="2020-04-13T15:35:55 IST" finished-at="2020-04-13T15:35:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Amazon_Login_And_Place_Order_TC001 status=SUCCESS method=AmazonAndroid.Amazon_Login_And_Place_Order_TC001()[pri:1, instance:com.tests.AmazonAndroid@5a60a828] output=<br>App launched</br><br><a href='D:\workspace\Amazon-MobileTesting\reports\images\811745775.jpg'> <img src='D:\workspace\Amazon-MobileTesting\reports\images\811745775.jpg' height='300' width='200'/> </a><br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.tests.AmazonAndroid@5a60a828]" name="afterSuite" is-config="true" duration-ms="1258" started-at="2020-04-13T15:35:55 IST" finished-at="2020-04-13T15:35:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.tests.AmazonAndroid -->
+    </test> <!-- Android Test 1 -->
+  </suite> <!-- Suite -->
+</testng-results>
