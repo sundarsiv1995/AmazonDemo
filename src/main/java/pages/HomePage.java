@@ -1,4 +1,4 @@
-package amazon;
+package pages;
 
 import static org.testng.Assert.assertTrue;
 

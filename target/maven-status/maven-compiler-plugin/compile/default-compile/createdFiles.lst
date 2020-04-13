@@ -1,0 +1,9 @@
+pages\PDPPage.class
+testcases\AmazonAndroid.class
+utils\ExcelFetch.class
+wrappers\AmazonWrapper.class
+pages\LoginPage.class
+pages\HomePage.class
+utils\Reporter.class
+pages\CheckoutPage.class
+wrappers\GenericWrappers.class

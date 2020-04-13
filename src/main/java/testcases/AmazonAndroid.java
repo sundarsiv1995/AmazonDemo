@@ -1,4 +1,4 @@
-package com.tests;
+package testcases;
 
 
 import org.testng.Assert;
@@ -6,10 +6,10 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import amazon.CheckoutPage;
-import amazon.HomePage;
-import amazon.LoginPage;
-import amazon.PDPPage;
+import pages.CheckoutPage;
+import pages.HomePage;
+import pages.LoginPage;
+import pages.PDPPage;
 import wrappers.AmazonWrapper;
 
 /**

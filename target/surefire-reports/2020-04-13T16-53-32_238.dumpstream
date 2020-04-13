@@ -1,4 +1,4 @@
-# Created at 2020-04-13T15:28:51.647
+# Created at 2020-04-13T16:53:33.798
 Boot Manifest-JAR contains absolute paths in classpath 'D:\workspace\Amazon-MobileTesting\target\test-classes'
 Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
 

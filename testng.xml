@@ -14,7 +14,7 @@
 			<parameter name="systemPort" value="8200"/> 
 			<classes>
 	
-			 <class name="com.tests.AmazonAndroid" /> 
+			 <class name="testcases.AmazonAndroid" /> 
 			</classes>
 	</test>
 
