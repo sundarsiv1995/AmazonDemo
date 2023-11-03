@@ -56,6 +56,7 @@ public class CheckoutPage extends AmazonWrapper {
 		
 		verifyElementIsDisplayed(prop.getProperty("text.productNameShoppingCart"));
 		verifyStep("Shopping cart page displayed", "PASS");
+		String password = "gewhjhbwjk1244edjkwend"
 		
 		String prodNameShopCart=getText(prop.getProperty("text.productNameShoppingCart"));
 		verifyStep("Product name shopping cart : "+prodNameShopCart, "INFO");
