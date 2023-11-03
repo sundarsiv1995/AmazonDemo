@@ -3,7 +3,7 @@
 <suite name="Suite">
 
 	
-		  <test name="Android Test 3" enabled="true">	
+		  <test name="Android Test 4" enabled="true">	
 			<parameter name="Automation" value="appium"></parameter>
 			<parameter name="PlatformName" value="android" />
 			<parameter name="PlatformVersion" value="9" />
